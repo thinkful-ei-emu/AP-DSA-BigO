@@ -25,3 +25,45 @@ This algorithm takes a number input generates an array using a for loop and cond
 9. This would be O(1) because it is returning a single value that is not dependent on the size of the array and will always return a random value from the array.
 
 10. This alogrithm takes a number input and checks if n is a prime number. This would be O(n) because the runtime would be proportional to the value of n if it doesn't meet the conditional.
+
+11. function TOH(n, source, dest, temp) {
+    if (n === 1) {
+      print(source, dest)
+      return;
+    }
+  
+    TOH(n-1, source, temp, dest);
+    print(source, dest)
+    TOH(n-1, dest, temp, source);
+  
+  }
+  
+  function print(S, D) {
+
+    console.log(`${S} -> ${D}`)
+
+  }
+  
+  TOH(3, "A", "C", "B")
+
+12. In index.js
+
+13.
+    1.
+    2.
+    3.
+    4.
+    5. 
+    6.
+    7.
+
+
+14.
+    1. O(n) 
+    2. O(n)
+    3. O(n) 
+    4. O(n) 
+    5. O(n) 
+    6. O(n) 
+    7. O(n)
+
