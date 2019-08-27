@@ -1,0 +1,27 @@
+1. 
+
+    1. This would be 0(1) because you only need to ask once no matter the size of the room
+
+    2. This would be O(n) because you are asking each person individually. As the size of the room increases, the time to find one can increase.
+
+2. This would be O(1) because basic arithmetic operations are generally O(1) and do not depend on the size of the input, as it is one thing.
+
+3. This would be a O(n^2) because there are two levels of looping over an input, which can rapidly increase the time complexity depending on the size of the input.
+
+4. This would be a O(n) because even though there is a basic arithmetic operations, the for loop can increase the time complexity proportionally depending on the size of the input.
+
+5. This would be an O(n) because the for loop can, in the worst case, take the entire length of the array input to reach an output. 
+
+6. This would be an O(n^2) because there is a nested for loop within the for loop, and nested loops can increase the time significantly.
+
+7. 
+// i: 1, 2, 3, 4, 5
+// result: [0, 1, 1, 2, 2 + 1= 3
+
+This algorithm takes a number input generates an array using a for loop and conditional statements. This would be O(n) because the size of the output array would be proportional to the number value of the input.
+
+8. This would be O(log n) because as the input increases in size, the runtime does not increase significnatly as it is still splitting it in half each time
+
+9. This would be O(1) because it is returning a single value that is not dependent on the size of the array and will always return a random value from the array.
+
+10. This alogrithm takes a number input and checks if n is a prime number. This would be O(n) because the runtime would be proportional to the value of n if it doesn't meet the conditional.
